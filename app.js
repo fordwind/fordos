@@ -3,4 +3,4 @@ const server = http.createServer((req , res) => res.end('asd'))
 server.listen(process.env.PORT)
 const axios = require('axios')
 
-setInterval(() => axios.get('https://dadlaughbutton.com/increment.php'))
+//setInterval(() => axios.get('https://dadlaughbutton.com/increment.php'))
