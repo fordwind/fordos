@@ -21,9 +21,4 @@ async function makePostRequest() {
 }
 
 
-setInterval(() => {
-  
-
-   
-    makePostRequest();
-})
+//setInterval(make)
