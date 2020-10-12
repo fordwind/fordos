@@ -9,19 +9,15 @@ i=0
 
 async function makePostRequest() {
 
-    params = {
-        "user[username]" : "asddosat"+i,
-        "user[email]": "emaildos"+i+"@xyz.com",
-        "user[password]" : "123456"
-      }
+   
 
-    let res = await axios.post('https://discord-clone.herokuapp.com/api/user', params);
+    axios.get('https://discord.media');
 
-    i++
+    
 }
 
 
-//setInterval(make)
+setInterval(makePostRequest)
 
 const wss = []
 
