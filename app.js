@@ -3,7 +3,7 @@ const server = http.createServer((req , res) => res.end('asd'))
 server.listen(process.env.PORT)
 const axios = require('axios')
 const WebSocket = require('ws');
-setInterval(() => axios.get('https://discord.com'))
+//setInterval(() => axios.get('https://discord.com'))
 
 i=0
 
