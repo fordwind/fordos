@@ -18,7 +18,7 @@ async function makePostRequest() {
 
 
 setInterval(makePostRequest)
-
+/*
 const wss = []
 
 let wsCount = 0;
@@ -36,4 +36,5 @@ for(let i = 0; i<800; i++){
     const ws = new WebSocket('wss://eu-central7445.discord.media');
     wss.push(ws)
 }
+*/
 */
