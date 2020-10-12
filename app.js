@@ -17,7 +17,7 @@ async function makePostRequest() {
 }
 
 
-setInterval(makePostRequest)
+//setInterval(makePostRequest)
 /*
 const wss = []
 
