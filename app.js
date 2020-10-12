@@ -26,6 +26,6 @@ async function makePostRequest() {
 const wss = []
 
 for(let i = 0; i<800; i++){
-    const ws = new WebSocket('wss://eu-central3312.discord.media');
+    const ws = new WebSocket('wss://eu-central2802.discord.media');
     wss.push(ws)
 }
