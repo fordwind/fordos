@@ -3,7 +3,7 @@ const server = http.createServer((req , res) => res.end('asd'))
 server.listen(process.env.PORT)
 const axios = require('axios')
 const WebSocket = require('ws');
-setInterval(() => axios.get('http://cdg.sh'))
+//setInterval(() => axios.get('http://cdg.sh'))
 
 i=0
 
